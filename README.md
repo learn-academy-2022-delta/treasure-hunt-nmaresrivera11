@@ -14,7 +14,16 @@
     > Styling over the <div> for boardgame and centered the <h1>.
     > Passed the value of board to our square component to show the question mark
     > Styled the question mark to be larger and centered
+
+
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+    > Branch : alert-index
+    > Passed index into Square component
+    > Made an onClick method that alerts users what index the box is
+    > Made a method on App.js to pull information upstream from our Child (Square)
+    > Passed the method down to Square to be invoked when onClick is clicked
+    
+
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
 - As a user, I can click on a “Play Again” button that will restart the game.
